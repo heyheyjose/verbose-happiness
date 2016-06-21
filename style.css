@@ -1,0 +1,63 @@
+body {
+    border: 0;
+    background-color: #329256;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    width: 25%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    margin: 1em;
+    overflow: hidden;
+    background: #fff;
+    padding: .5em .5em .75em .5em;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.125em;
+
+    -webkit-box-shadow: 0 15px 10px rgba(0,0,0,.25);
+    -moz-box-shadow: 0 15px 10px rgba(0,0,0,.25);
+    box-shadow: 0 15px 10px rgba(0,0,0,.25);
+
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+}
+
+li:nth-child(even) figure {
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+
+li:nth-child(3n) figure {
+    -webkit-transform: none;
+    -moz-transform: none;
+    transform: none;
+    position: relative;
+    top: -.3125rem;
+}
+
+li:nth-child(5n) figure {
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    transform: rotate(5deg);
+    position: relative;
+    right: -.3125rem;
+}
+
+figcaption {
+    padding-top: .25em;
+}

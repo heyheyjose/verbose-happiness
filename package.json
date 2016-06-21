@@ -1,0 +1,15 @@
+{
+  "name": "verbose-happiness",
+  "version": "1.0.0",
+  "description": "A simple page that pulls photos from Flickr using their API and displays them in a pin-board style",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "cheerio": "^0.20.0"
+  }
+}
